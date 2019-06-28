@@ -5,11 +5,11 @@ import TheatreDb from '../../../src/db/theatre-db';
 
 describe('theatre', () => {
   let sandbox;
-  beforeEach("Movies", () => {
+  beforeEach("theatre", () => {
     sandbox = sinon.sandbox.create();
   });
 
-  afterEach("Movies", () => {
+  afterEach("theatre", () => {
     sandbox.restore();
   });
 
